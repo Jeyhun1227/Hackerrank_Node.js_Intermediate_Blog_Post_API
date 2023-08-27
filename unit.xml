@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.425" tests="13" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-08-26T21:58:13" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="blog_posts_api_medium" timestamp="2023-08-26T21:58:13" tests="13" file="C:\Users\Administrator\Documents\Hackerrank_Blog_Post_API-main\Hackerrank_Blog_Post_API-main\test\index.spec.js" time="14.753" failures="2">
+    <testcase name="blog_posts_api_medium should create a published post" time="1.142" classname="should create a published post">
+    </testcase>
+    <testcase name="blog_posts_api_medium should create an unpublished post" time="0.861" classname="should create an unpublished post">
+    </testcase>
+    <testcase name="blog_posts_api_medium should fetch all the posts" time="3.038" classname="should fetch all the posts">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\Administrator\Documents\Hackerrank_Blog_Post_API-main\Hackerrank_Blog_Post_API-main\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Administrator\Documents\Hackerrank_Blog_Post_API-main\Hackerrank_Blog_Post_API-main\test\index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="blog_posts_api_medium &quot;after each&quot; hook for &quot;should fetch all the posts&quot;" time="2.680" classname="&quot;after each&quot; hook for &quot;should fetch all the posts&quot;">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\Administrator\Documents\Hackerrank_Blog_Post_API-main\Hackerrank_Blog_Post_API-main\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Administrator\Documents\Hackerrank_Blog_Post_API-main\Hackerrank_Blog_Post_API-main\test\index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

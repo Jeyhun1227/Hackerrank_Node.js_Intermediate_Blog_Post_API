@@ -1,0 +1,29 @@
+{
+  "name": "blog-posts-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon bin/www",
+    "test": "cross-env PORT=8001 ./node_modules/.bin/mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "express": "~4.18.2",
+    "jade": "~1.11.0",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "morgan": "~1.10.0",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "cross-env": "^7.0.3"
+  }
+}
