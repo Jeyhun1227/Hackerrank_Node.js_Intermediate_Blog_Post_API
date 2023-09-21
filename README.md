@@ -6,7 +6,7 @@ Example of a post data JSON object:
  {
     "isPublished": true,
     "title": "Overcoming Bias in Recruiting to Create a Culture of Diversity & Inclusion",
-    "author": 1,
+    "author": 2,
     "timestamp": 1531522701000,
     "publishedDate": 1598775265079,
     "id": 1
